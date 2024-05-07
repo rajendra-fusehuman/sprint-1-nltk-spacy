@@ -41,7 +41,7 @@ Emojis, while expressive and widely used in informal communication, pose challen
 ## 7) Removal of Emoticons
 Similar to emojis, emoticons too add noise to the text data and hinders in text tokenization. A basic difference between the two can be clarified as:
 - :-) is an emoticon
-- `:smile` is an emoji
+- 😄 is an emoji
 
 ## 8) Conversion of Emoji to Words
 Since emojis, too, carry some semantic information about the text, removing them completely can cause loss of information. This is mostly applicable for task like sentiment analysis where emojis express a lot about the sentiment of the given text. Hence, it is more suitable to convert them into words or phrases than completely eliminating from the text.
