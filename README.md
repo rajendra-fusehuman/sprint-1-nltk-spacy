@@ -102,3 +102,5 @@ Tokenization is a fundamental preprocessing step in NLP that involves breaking d
     - Texts are splitted in sentences on the basis of different punctuation symbols.
 
 All the above mentioned preprocessing steps can be achieved through both **NLTK** and **spaCy** as illustrated in the python modules **nlp-using-nltk.py** and **nlp-using-spacy.py** respectively.
+
+## **Refer this [link](https://www.kaggle.com/code/midouazerty/detecting-fake-news-step-by-step/input) for complete dataset.**
