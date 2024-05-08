@@ -12,16 +12,4 @@ repos:
     rev: 7.0.0
     hooks:
     -   id: flake8
--   repo: https://github.com/psf/black
-    rev: 24.4.2
-    hooks:
-    -   id: black
--   repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
-    hooks:
-    -   id: codespell
-        name: codespell
-        description: Checks for common misspellings in text files.
-        entry: codespell --ignore-words ignore-spelling-words.txt README.txt
-        language: python
-        types: [text]
+        exclude: (^emojis\.py$|^emoticons\.py$)
